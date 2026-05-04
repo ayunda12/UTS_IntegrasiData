@@ -41,7 +41,15 @@ Keterangan:
 - Nama paket: bobot 50%
 - Uraian pekerjaan: bobot 30%
 - Metode pengadaan: bobot 20%
-
+  
+### Perhitungan Skor Kemiripan
+Skor kemiripan akhir dihitung dengan menggabungkan seluruh fitur menggunakan pembobotan sebagai berikut:
+Score = (0.5 × similarity_nama) + (0.3 × similarity_uraian) + (0.2 × similarity_metode)
+Keterangan:
+- similarity_nama: hasil cosine similarity pada nama paket
+- similarity_uraian: hasil cosine similarity pada uraian pekerjaan
+- similarity_metode: 1 jika metode sama, 0 jika berbeda
+- 
 # Kriteria Anomali
 1. Anomali Anggaran
 Paket memiliki kemiripan tinggi

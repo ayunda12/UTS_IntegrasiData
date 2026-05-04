@@ -59,7 +59,7 @@ Selisih anggaran > 50%
 Metode pengadaan berbeda
 => Anomali lebih kuat karena terjadi pada harga dan metode sekaligus
 
-4. Anomali Konteks Sama (Paling Kuat 🔥)
+4. Anomali Konteks Sama
 Paket memiliki kemiripan tinggi
 Selisih anggaran > 50%
 Satker sama
@@ -75,6 +75,6 @@ Hasil analisis berupa:
 - Deteksi anomali
 - Visualisasi (scatter plot & grafik)
 
-Dataset keseluruhan sebelum filter dan sesudahnya, serta hasil pairs dan anomali berada di link berikut: https://docs.google.com/spreadsheets/d/1BHkMJE4nZ_aa6yQFkR25xidGymfc2psw/edit?usp=drive_link&rtpof=true&sd=true 
+Dataset keseluruhan sebelum filter dan sesudahnya, serta hasil pairs dan anomali berada di link berikut: https://drive.google.com/drive/folders/1vUl_LOJM5G8saRhAjHECoa80dR0Ao_9z?usp=sharing 
 
 
